@@ -14,4 +14,5 @@ client.on('messageCreate', message => {
   }
 });
 
-client.login('TOKEN_BOT_CUA_BAN');
+client.login(process.env.TOKEN);
+
